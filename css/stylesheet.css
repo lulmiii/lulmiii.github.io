@@ -3,7 +3,7 @@
     background-color: #383F51;
 }
 
-.test {
+.whus {
 
     color: #383F51;
     font-size: 6vh;
@@ -15,7 +15,7 @@
     outline: 5px dotted #DCD6F7;
 }
 
-.one {
+.lulmiii {
 
     color: #B7B5E4;
     font-size: 2.5vh;
@@ -23,9 +23,25 @@
     font-family: 'Pacifico', cursive;
 }
 
+.hr {
+    
+    height:2vh;
+    color:#DCD6F7;
+    background-color:#DCD6F7;
+    
+}
 .hello {
 
     color: #DCD6F7;
     font-family: 'Pacifico', cursive;
     font-size: 3vh;
+    height:5vh;
+    margin:10vh;
+}
+
+.button {
+    
+    background-color: #B7B5E4;
+    height: 5vh;
+    color: #383F51;
 }

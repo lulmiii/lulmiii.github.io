@@ -14,25 +14,36 @@
 
 <body class="body">
 
-    <div class="test">
+    <div class="whus">Whus Poppin</div>
 
-        Whus Poppin
+    <div class="lulmiii">By lulmiii</div>
 
-    </div>
+    <hr class="hr" />
 
-    <p class="one">
+    <div class="hello">Hello my dear friends!</div>
 
-        By lulmiii
+    <input class="button" type="button" value="Click me" id="button1">
 
-    </p>
-
-    <hr class="hr" style="height:2vh;color:#DCD6F7;background-color:#DCD6F7"/>
-
-    <p class="hello">
-
-        Hello my dear friends!
-    </p>
+    <p id="text1" style="display: block">Hallo, Ih bims</p>
 
 </body>
+
+<script>
+    document.getElementById("button1").addEventListener("click", function() {
+        
+
+        if (document.getElementById("text1").style.visibility === "hidden") {
+            
+            document.getElementById("text1").style.visibility = "visible";
+            document.getElementById("text1").style.display = "block";
+
+        } else {
+            document.getElementById("text1").style.visibility = "hidden";
+            document.getElementById("text1").style.display = "none";
+        }
+
+    });
+
+</script>
 
 </html>
